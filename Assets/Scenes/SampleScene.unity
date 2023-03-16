@@ -622,7 +622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8b33f9413960a54dbbd18882cc80d61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mass: 5
+  mass: 2
 --- !u!58 &453028609
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -924,7 +924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8b33f9413960a54dbbd18882cc80d61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mass: 5
+  mass: 2
 --- !u!58 &566603134
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1456,7 +1456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8b33f9413960a54dbbd18882cc80d61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mass: 300
+  mass: 10
 --- !u!60 &1423670041
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1566,7 +1566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8b33f9413960a54dbbd18882cc80d61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mass: 5
+  mass: 2
 --- !u!58 &1580502642
 CircleCollider2D:
   m_ObjectHideFlags: 0
