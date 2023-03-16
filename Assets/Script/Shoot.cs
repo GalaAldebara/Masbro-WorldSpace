@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class Shoot : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
+    public Transform shootingPoint;
+    public GameObject bulletPrefab;
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Space)) {
+            Instantiate(bulletPrefab, shootingPoint.position, transform.rotation);
+        }
     }
 }
+// Keyboard.current.spaceKey.wasPressedThisFrame
